@@ -1,4 +1,3 @@
-HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,25 +7,49 @@ HTML
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Contact Us</h1>
-  <p>Get in touch with us through any of the options below:</p>
-  <ul>
-    <li><strong>Email:</strong> <a href="mailto:inboxtejas@gmail.com">keytree@co.uk</a></li>
-    <li><strong>Phone:</strong> +0</li>
-    <li><strong>Address:</strong> Your Company Address</li>
-  </ul>
-  <hr>
-  <h2>Contact Form</h2>
-  <form action="/submit-form.php" method="post"> <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-    <br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    <br>
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" required></textarea>
-    <br>
-    <button type="submit">Send Message</button>
-  </form>
+    <header>
+        <h1>Keytree Solutions</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li>
+                <a href="contact.html">Contact Us
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Unlocking the Power of Salesforce: <br>Custom Solutions, Expert Execution</h2>
+            <button class="cta">Start Your Salesforce Journey</button>
+        </section>
+        <section class="getin-touch">
+            <h2>Get in touch with us through any of the options below:</h2>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:inboxtejas@gmail.com">keytree@co.uk</a></li>
+                <li><strong>WatsApp Us:</strong> +0</li>
+                <li><strong>Address:</strong> Manchester City Center Spring Garden</li>
+            </ul>
+        </section>
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="/submit-form.php" method="post"> <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Send Message</button>
+              </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Keytree Solutions</p>
+    </footer>  
 </body>
 </html>
