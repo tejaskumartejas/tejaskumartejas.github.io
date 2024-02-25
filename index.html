@@ -51,6 +51,22 @@
             color: #ffffff;
             padding: 20px 0;
         }
+
+        /* Map styles */
+        .map-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%; /* Aspect ratio 16:9 */
+        }
+
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
     </style>
 </head>
 <body>
@@ -67,6 +83,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Join Our Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -87,137 +106,37 @@
     <div class="section bg-light" id="services">
         <div class="container">
             <h2 class="text-center mb-5">Our Services</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Salesforce Implementation</h5>
-                            <p class="card-text">Launch quickly and efficiently with a solution tailored to your specific needs. Boost productivity and adoption from day one.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Customization & Development</h5>
-                            <p class="card-text">Close more deals with bespoke solutions like custom objects, fields, and workflows. Eliminate manual tasks and automate key processes.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Integration & Migration</h5>
-                            <p class="card-text">Seamlessly connect Salesforce with existing systems and third-party applications. Gain a 360-degree view of your customers and make data-driven decisions.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Velocity Salesforce</h5>
-                            <p class="card-text">Unlock the power of high-performance computing with our Velocity expertise. Boost processing speed and handle complex data workloads with ease.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">OmniStudio</h5>
-                            <p class="card-text">Create immersive, integrated customer experiences with OmniStudio. Deliver seamless interactions across every touchpoint and drive customer loyalty.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Managed Services</h5>
-                            <p class="card-text">Focus on your core business while we handle the ongoing management and maintenance of your Salesforce platform. Enjoy peace of mind and ensure optimal performance.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Service Cards -->
         </div>
     </div>
 
     <div class="section" id="about">
         <div class="container">
             <h2 class="text-center mb-5">Our Story</h2>
-            <p>Founded in 2023 by a Salesforce architect with over 12 years of experience, KeyTree UK is committed to helping businesses achieve their goals through Salesforce solutions. We're not just consultants; we're partners. We'll listen to your needs, understand your challenges, and deliver solutions that make a real difference.</p>
+            <!-- Our Story Content -->
         </div>
     </div>
 
     <div class="section bg-light" id="team">
         <div class="container">
-            <h2 class="text-center mb-5">Your Dream Team</h2>
-            <p>Meet the experts behind your success. Our 6-person team of certified Salesforce professionals brings a wealth of experience and diverse skillsets to the table. We work seamlessly together, leveraging our offshore team in India for competitive pricing and scalability. You'll have direct access to dedicated specialists who understand your industry and are passionate about your success.</p>
+            <h2 class="text-center mb-5">Join Our Team</h2>
+            <!-- Job Openings -->
         </div>
     </div>
 
-    <div class="section" id="track-record">
+    <div class="section" id="map">
         <div class="container">
-            <h2 class="text-center mb-5">Proven Track Record</h2>
-            <p>Don't just take our word for it. We have a proven track record of success across various industries, delivering projects that drive tangible results. See how we've helped businesses like yours:</p>
-            <ul>
-                <li>Increased sales by 20% through improved lead management and automation.</li>
-                <li>Reduced customer churn by 15% with enhanced customer service capabilities.</li>
-                <li>Boosted productivity by 30% with streamlined workflows and reporting.</li>
-                <li>Achieved a seamless migration to the latest Salesforce version with minimal downtime.</li>
-            </ul>
+            <h2 class="text-center mb-5">Visit Us</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d915.5393718280438!2d-2.244458661092418!3d53.47533517867378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1ea29f34525%3A0xfb957416e254bb1b!2s7%20Chepstow%20St%2C%20Manchester%20M1%205JQ!5e0!3m2!1sen!2suk!4v1708735837763!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </div>
 
-    <div class="section bg-light" id="industry-expertise">
-        <div class="container">
-            <h2 class="text-center mb-5">Industry Expertise</h2>
-            <p>No matter your industry, we speak your language. We have deep experience in various sectors, including:</p>
-            <ul>
-                <li>Financial Services</li>
-                <li>Retail</li>
-                <li>Manufacturing</li>
-                <li>Technology</li>
-                <li>Healthcare</li>
-                <li>Non-Profit</li>
-            </ul>
-            <p>We understand the unique challenges and opportunities each industry presents. We'll tailor our solutions to your specific needs and ensure they deliver maximum impact.</p>
-        </div>
-    </div>
-
-    <div class="section" id="banks">
-        <div class="container">
-            <h2 class="text-center mb-5">Bank Success Stories</h2>
-            <p>Helping financial institutions thrive. We have a rich history of collaborating with prominent UK and international banks, delivering solutions that address their specific regulatory requirements and security concerns. We helped them:</p>
-            <ul>
-                <li>Improve compliance and risk management.</li>
-                <li>Enhance customer onboarding and KYC processes.</li>
-                <li>Streamline loan applications and approvals.</li>
-                <li>Gain deeper insights into customer behavior and preferences.</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="section bg-light" id="why-choose">
-        <div class="container">
-            <h2 class="text-center mb-5">Why Choose KeyTree UK?</h2>
-            <p>Here's what sets us apart:</p>
-            <ul>
-                <li>Certified Expertise: Our team holds industry-recognized Salesforce certifications and boasts over 12 years of combined experience.</li>
-                <li>Client-Centric Approach: We collaborate closely with you to understand your unique needs and goals.</li>
-                <li>Agile Methodology: We utilize an agile approach to ensure flexibility and rapid adaptation to your requirements.</li>
-                <li>Cost-Effective Solutions: We offer competitive pricing and leverage our offshore team to optimize your budget.</li>
-                <li>Global Reach: We serve clients across the UK and internationally.</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="section" id="contact">
+    <div class="section bg-light" id="contact">
         <div class="container">
             <h2 class="text-center mb-5">Contact Us</h2>
-            <p>Ready to transform your business with Salesforce? Contact KeyTree UK today for a free consultation and see the difference we can make. Don't wait, unlock your full potential now!</p>
-            <p>Phone: +44 7442624338</p>
-            <p>Email: contact@keytreeuk.com</p>
-            <p>WhatsApp: +91 9673331186</p>
-            <p>Connect with us on <a href="https://www.linkedin.com/company/keytree-solutions/">LinkedIn</a></p>
+            <!-- Contact Form or Information -->
         </div>
     </div>
 
