@@ -45,6 +45,15 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
         /* Footer styles */
         .footer {
             background-color: #343a40;
@@ -106,15 +115,35 @@
     <div class="section bg-light" id="services">
         <div class="container">
             <h2 class="text-center mb-5">Our Services</h2>
-            <p>Tired of chasing leads? Let KeyTree UK's certified Salesforce experts transform your sales engine. We offer a comprehensive suite of services, including:</p>
-            <ul>
-                <li>Salesforce Implementation: Launch quickly and efficiently with a solution tailored to your specific needs. Boost productivity and adoption from day one.</li>
-                <li>Customization: Close more deals with bespoke solutions like custom objects, fields, and workflows. Eliminate manual tasks and automate key processes.</li>
-                <li>Integration: Unify your data landscape by seamlessly connecting Salesforce with existing systems and third-party applications. Gain a 360-degree view of your customers and make data-driven decisions.</li>
-                <li>Migration and Upgrades: Move to the latest Salesforce version with minimal disruption. Benefit from advanced features and enhanced security.</li>
-                <li>Velocity Salesforce: Unlock the power of high-performance computing with our Velocity expertise. Boost processing speed and handle complex data workloads with ease.</li>
-                <li>Managed Services: Focus on your core business while we handle the ongoing management and maintenance of your Salesforce platform. Enjoy peace of mind and ensure optimal performance.</li>
-            </ul>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Service Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Salesforce Implementation</h5>
+                            <p class="card-text">Launch quickly and efficiently with a solution tailored to your specific needs. Boost productivity and adoption from day one.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Service Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Customization</h5>
+                            <p class="card-text">Close more deals with bespoke solutions like custom objects, fields, and workflows. Eliminate manual tasks and automate key processes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Service Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Integration</h5>
+                            <p class="card-text">Unify your data landscape by seamlessly connecting Salesforce with existing systems and third-party applications. Gain a 360-degree view of your customers and make data-driven decisions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -140,16 +169,7 @@
         </div>
     </div>
 
-    <div class="section" id="map">
-        <div class="container">
-            <h2 class="text-center mb-5">Visit Us</h2>
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d915.5393718280438!2d-2.244458661092418!3d53.47533517867378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1ea29f34525%3A0xfb957416e254bb1b!2s7%20Chepstow%20St%2C%20Manchester%20M1%205JQ!5e0!3m2!1sen!2suk!4v1708735837763!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </div>
-
-    <div class="section bg-light" id="contact">
+    <div class="section" id="contact">
         <div class="container">
             <h2 class="text-center mb-5">Contact Us</h2>
             <!-- Contact Form or Information -->
